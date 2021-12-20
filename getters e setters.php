@@ -42,16 +42,16 @@
     
             $pessoa1 = new Pessoa();
             $pessoa1->nome = "Nicson Souza Nascimento";
-            $pessoa1->setCpf("06810346538");
-            $pessoa1->setDn("20/09/1994");
+            $pessoa1->setCpf("123********");
+            $pessoa1->setDn("20/09/****");
             $pessoa1->Falar();echo"<br>";
             
             print_r($pessoa1);
 
             $pessoa2 = new Pessoa();
             $pessoa2->nome = "Samire Barreto da Conceição"; 
-            $pessoa2->setCpf("05873243506");
-            $pessoa2->setDn("01/06/1993");echo"<br>";
+            $pessoa2->setCpf("456********");
+            $pessoa2->setDn("01/06/****");echo"<br>";
             $pessoa2->Falar(); echo"<br>";
 
             print_r($pessoa2);
